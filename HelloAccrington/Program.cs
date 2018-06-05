@@ -22,9 +22,8 @@ namespace HelloAccrington
 
             //display system time direct to console
             Console.WriteLine(DateTime.Now);
-
-            //var time = DateTime.Parse("yyyyMMdd");
-            //Console.WriteLine(time);
+            //Formatting DateTime
+            Console.WriteLine(DateTime.Now.ToString("yyyyMMdd"));
 
             Console.WriteLine("Please Enter Pickup Location");
             newjob.pickup = Console.ReadLine();
